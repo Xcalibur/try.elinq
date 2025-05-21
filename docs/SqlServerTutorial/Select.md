@@ -12,32 +12,32 @@ ELINQ extends `DbSet` with a `Query` method. As any LINQ method, it accepts a La
 
 Retrieving some columns is not a common case in EF and requires declaration of the dedicated keyless entity (`FullName`).
 
-```cs --project ../../SqlServerTutorial/SqlServerTutorial.csproj --source-file ../../SqlServerTutorial/Basic/Select.cs --region A
+```cs --project ../../../SqlServerTutorial/SqlServerTutorial.csproj --source-file ../../../SqlServerTutorial/Basic/Select.cs --region A
 ```
 
 Another option is to use LINQ for the anonymous top level projection. See how easy is to mix ELINQ and LINQ:
 
-```cs --project ../../SqlServerTutorial/SqlServerTutorial.csproj --source-file ../../SqlServerTutorial/Basic/Select.cs --region A_1
+```cs --project ../../../SqlServerTutorial/SqlServerTutorial.csproj --source-file ../../../SqlServerTutorial/Basic/Select.cs --region A_1
 ```
 
 ### B) SQL Server `SELECT` – retrieve all columns from a table
 
-```cs --project ../../SqlServerTutorial/SqlServerTutorial.csproj --source-file ../../SqlServerTutorial/Basic/Select.cs --region B
+```cs --project ../../../SqlServerTutorial/SqlServerTutorial.csproj --source-file ../../../SqlServerTutorial/Basic/Select.cs --region B
 ```
 
 ### C) SQL Server `SELECT` – sort the result set
 
-```cs --project ../../SqlServerTutorial/SqlServerTutorial.csproj --source-file ../../SqlServerTutorial/Basic/Select.cs --region C
+```cs --project ../../../SqlServerTutorial/SqlServerTutorial.csproj --source-file ../../../SqlServerTutorial/Basic/Select.cs --region C
 ```
 
 ### D) SQL Server `SELECT` – group rows into groups example
 
-```cs --project ../../SqlServerTutorial/SqlServerTutorial.csproj --source-file ../../SqlServerTutorial/Basic/Select.cs --region D
+```cs --project ../../../SqlServerTutorial/SqlServerTutorial.csproj --source-file ../../../SqlServerTutorial/Basic/Select.cs --region D
 ```
 
 ### E) SQL Server `SELECT` – filter groups example
 
-```cs --project ../../SqlServerTutorial/SqlServerTutorial.csproj --source-file ../../SqlServerTutorial/Basic/Select.cs --region E
+```cs --project ../../../SqlServerTutorial/SqlServerTutorial.csproj --source-file ../../../SqlServerTutorial/Basic/Select.cs --region E
 ```
 
 ---
